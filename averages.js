@@ -72,5 +72,6 @@ function averageFinder(initialNums) {
 
 };
 
+// call function 
 averageFinder(process.argv);
 
