@@ -66,10 +66,12 @@ function averageFinder(initialNums) {
     }
   });
 
+  // print results
   console.log(tallies)
   console.log("Mean: " + mean + "   Median: " + median + "   Mode: " + mode + "   " + modeText);
 
 };
 
+// call function 
 averageFinder(process.argv);
 
